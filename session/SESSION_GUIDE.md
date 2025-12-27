@@ -1,13 +1,13 @@
 # Hướng dẫn sử dụng Class Session
 
-Class `NASANICORE\Core\Session\Http\Session` cung cấp các phương thức để tương tác với PHP Session một cách dễ dàng và an toàn.
+Class `NASANICORE\Core\Support\Facades\Session` cung cấp các phương thức để tương tác với PHP Session một cách dễ dàng và an toàn.
 
 ## Khởi tạo và Truy cập
 
 Class `Session` chứa các phương thức tĩnh (static methods). Tuy nhiên, bạn cũng có thể sử dụng helper function `session()` để truy cập instance của class này.
 
 ```php
-use NASANICORE\Core\Session\Http\Session;
+use NASANICORE\Core\Support\Facades\Session;
 
 // Sử dụng static method
 Session::set('key', 'value');
